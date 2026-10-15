@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Resort extends Model
+{
+    use HasFactory;
+    
+    protected $fillable = ['name', 'location', 'description', 'price_per_night', 'image_url'];
+}
